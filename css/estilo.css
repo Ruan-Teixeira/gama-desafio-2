@@ -1,0 +1,70 @@
+.header {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+#text-header {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+body {   background-color: #101e3f;}
+
+.card-conteiner {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.draw {
+    display: flex;
+    margin: 10px;
+    border-radius: 5px;
+    width: 600px 250px;
+}
+
+.bloco-post {
+    justify-content: space-between;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    margin: 10px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid white;
+    flex-basis: 50px;
+    flex-grow: 2;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: #000;
+    color: #fff;
+}
+
+.footer {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.text-footer {
+    display: flex;
+    width: 100%;
+    align-items: center;
+   
+    text-align: center;
+    color: white;
+}
